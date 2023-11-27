@@ -1,0 +1,100 @@
+<!DOCFILE html>
+<html lang="ru">
+<head>
+	<meta charset=«utf-8»>
+	<meta name=«viewport» content=«width=device-width,initial-scale=1.0»>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icon.png" type="image/x-icon" />
+	<title>Сайт портфолио</title>
+
+    <meta property="og:title" content="Разговоров Владимир">
+    <meta property="og:description" content="Сайт портфолио">
+    <meta property="og:image" content="https://razgovorovvladimir.com/image.jpg">
+    <meta property="og:url" content="https://razgovorovvladimir.com/">
+    <style>
+     .container {
+        display: flex;
+    }
+.containerr {
+        display: start;
+    }
+
+        .social-links {
+   display: start;
+    justify-content: center;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .social-link {
+    margin: 0 10px;
+  }
+
+    </style>
+</head>
+<body>
+	<header>
+		<h1><font size="16">Сайтик обо мне</font></h1>
+	</header>
+    <div class="container">
+        <div class="text">
+            <h1>Привет, мир!</h1>
+            <p>Меня зовут Разговоров Владимир. Мне 20 лет, родился в городе Москва. В данный момент я студент первого курса МТУСИ, учусь по специальности "программный инженер". С детства занимаюсь музыкой, даже получил диплом пианиста в колледже при Московской консерватории им. П.И. Чайковского.  </p>
+        </div>
+        <div class="photo">
+                <img src="me.jpeg" width="210"
+                    style="border-radius: 150px"alt="Фотография"
+        </div>
+    </div>
+
+    <div style="clear:both;"></div>
+    <div class="containerr">
+        <h1>Мои соцсети</h1>
+        <div class="social-links">
+          <a class="social-link" href="https://t.me/razgovorov_v" target="_blank">
+            <img src="tel.svg" width="90" alt="Telegram">
+          </a>
+
+          <a class="social-link" href="https://www.youtube.com/channel/UCsqP9TnUU4zvLfHiwAl4ybQ" target="_blank">
+            <img src="yout.svg" width="90" alt="YouTube">
+          </a>
+
+          <a class="social-link" href="https://vk.com/nebozhestvennyy" target="_blank">
+            <img src="vkk.svg" width="90" alt="VK">
+          </a>
+
+          <a class="social-link" href="https://www.tiktok.com/@molchuuuuunn" target="_blank">
+            <img src="tiktok.svg" width="90" alt="TikTok">
+          </a>
+
+          <a class="social-link" href="https://www.instagram.com/molchunidze" target="_blank">
+            <img src="inst.svg" width="90" alt="Instagram">
+          </a>
+
+          <a class="social-link" href="https://github.com/molchunidze" target="_blank">
+            <img src="git.svg" width="90" alt="GitHub">
+          </a>
+        </div>
+    </div>
+<div id="video-container">
+</div>
+<script>
+  // Создание элемента iframe
+  var videoContainer = document.createElement("iframe");
+
+  // Установка атрибутов для воспроизведения видео с YouTube
+  videoContainer.setAttribute("src", "https://www.youtube.com/embed/4RASvwUIoQs");
+  videoContainer.setAttribute("width", "560");
+  videoContainer.setAttribute("height", "315");
+  videoContainer.setAttribute("frameborder", "0");
+  videoContainer.setAttribute("allowfullscreen", "");
+
+  // Добавление элемента iframe в HTML-код
+  document.getElementById("video-container").appendChild(videoContainer);
+</script>
+
+</body>
+</html>

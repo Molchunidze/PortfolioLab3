@@ -1,0 +1,40 @@
+html {
+background-image: url('bg.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+font-family: "Gill Sans", sans-serif;
+color: #E0FFFF; /* Цвет текста */
+/*-webkit-text-stroke: 1px #5F9EA0 ; *//* Толщина и цвет обводки *//*
+text-stroke: 1px #5F9EA0; *//* Толщина и цвет обводки (стандартное свойство) *//*/ */
+font-size: 1.3rem
+}
+    /*.container {
+      width: 80%; *//* Ширина контейнера *//**//**//*
+     *//* margin: 0 auto; *//**//**//**//**//**//* Центрирование контейнера *//**//**//**//**//*
+      backdrop-filter: blur(10px); *//**//**//* Применение размытия *//**//**//*
+    }
+    .container1 {
+      width: 100%; *//**//**//* Ширина контейнера *//**//**//*
+     *//* margin: 0 auto; *//**//**//**//**//**//* Центрирование контейнера *//**//**//**//**//*
+      backdrop-filter: blur(10px); *//**//**//* Применение размытия *//**//**//*
+    }*/
+
+.text {
+  width: 75%;
+  padding: 20px;
+}
+
+.photo {
+  width: 25%;
+  padding: 20px;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+}
+
+header,
+footer {
+  /* Стили для хэдера и футера */
+}
